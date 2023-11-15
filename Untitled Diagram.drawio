@@ -1,9 +1,168 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T14:38:00.637Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.1" etag="WqahPi_GV8-QTjA_wduD" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T17:19:21.884Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="BQjKduql9SA-m0orj2s3" version="22.1.1" type="github">
   <diagram name="Page-1" id="h-Ne3Ox8bphOEvE_lwpQ">
-    <mxGraphModel>
+    <mxGraphModel dx="1405" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zenfmyOmmmWf0STnrFEn-1" value="API Layer&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="790" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zenfmyOmmmWf0STnrFEn-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-3" value="Client Req" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#A9C4EB;strokeColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zenfmyOmmmWf0STnrFEn-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-5" value="Client Req" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#A9C4EB;strokeColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="280" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zenfmyOmmmWf0STnrFEn-15">
+          <mxGeometry width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-7" value="Service A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" vertex="1" parent="zenfmyOmmmWf0STnrFEn-15">
+          <mxGeometry x="20.869565217391305" y="8.181818181818182" width="125.21739130434783" height="32.72727272727273" as="geometry" />
+        </mxCell>
+        <UserObject label="Module" treeRoot="1" id="zenfmyOmmmWf0STnrFEn-12">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="zenfmyOmmmWf0STnrFEn-15">
+            <mxGeometry x="34.78260869565218" y="65.45454545454545" width="83.47826086956522" height="24.545454545454547" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-13" value="Module" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="zenfmyOmmmWf0STnrFEn-15">
+          <mxGeometry x="13.91304347826087" y="122.72727272727273" width="48.69565217391305" height="24.545454545454547" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-10" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="zenfmyOmmmWf0STnrFEn-15" source="zenfmyOmmmWf0STnrFEn-12" target="zenfmyOmmmWf0STnrFEn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-14" value="Module" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="zenfmyOmmmWf0STnrFEn-15">
+          <mxGeometry x="90.43478260869564" y="122.72727272727273" width="48.69565217391305" height="24.545454545454547" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-11" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="zenfmyOmmmWf0STnrFEn-15" source="zenfmyOmmmWf0STnrFEn-12" target="zenfmyOmmmWf0STnrFEn-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-16" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="240" y="280" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zenfmyOmmmWf0STnrFEn-16">
+          <mxGeometry width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-18" value="Service B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F19C99;" vertex="1" parent="zenfmyOmmmWf0STnrFEn-16">
+          <mxGeometry x="20.869565217391305" y="8.181818181818182" width="125.21739130434783" height="32.72727272727273" as="geometry" />
+        </mxCell>
+        <UserObject label="Module" treeRoot="1" id="zenfmyOmmmWf0STnrFEn-19">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="zenfmyOmmmWf0STnrFEn-16">
+            <mxGeometry x="34.78260869565218" y="65.45454545454545" width="83.47826086956522" height="24.545454545454547" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-20" value="Module" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="zenfmyOmmmWf0STnrFEn-16">
+          <mxGeometry x="13.91304347826087" y="122.72727272727273" width="48.69565217391305" height="24.545454545454547" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-21" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="zenfmyOmmmWf0STnrFEn-16" source="zenfmyOmmmWf0STnrFEn-19" target="zenfmyOmmmWf0STnrFEn-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-22" value="Module" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="zenfmyOmmmWf0STnrFEn-16">
+          <mxGeometry x="90.43478260869564" y="122.72727272727273" width="48.69565217391305" height="24.545454545454547" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-23" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="zenfmyOmmmWf0STnrFEn-16" source="zenfmyOmmmWf0STnrFEn-19" target="zenfmyOmmmWf0STnrFEn-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-24" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="440" y="280" width="170" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zenfmyOmmmWf0STnrFEn-24">
+          <mxGeometry width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-26" value="Service C" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9AC7BF;" vertex="1" parent="zenfmyOmmmWf0STnrFEn-24">
+          <mxGeometry x="22.17391304347826" y="8.181818181818182" width="133.04347826086956" height="32.72727272727273" as="geometry" />
+        </mxCell>
+        <UserObject label="Module" treeRoot="1" id="zenfmyOmmmWf0STnrFEn-27">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="zenfmyOmmmWf0STnrFEn-24">
+            <mxGeometry x="36.95652173913044" y="65.45454545454545" width="88.69565217391305" height="24.545454545454547" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-28" value="Module" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="zenfmyOmmmWf0STnrFEn-24">
+          <mxGeometry x="14.782608695652174" y="122.72727272727273" width="51.73913043478261" height="24.545454545454547" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-29" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="zenfmyOmmmWf0STnrFEn-24" source="zenfmyOmmmWf0STnrFEn-27" target="zenfmyOmmmWf0STnrFEn-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-30" value="Module" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="zenfmyOmmmWf0STnrFEn-24">
+          <mxGeometry x="96.08695652173913" y="122.72727272727273" width="51.73913043478261" height="24.545454545454547" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-31" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="zenfmyOmmmWf0STnrFEn-24" source="zenfmyOmmmWf0STnrFEn-27" target="zenfmyOmmmWf0STnrFEn-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-33" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="640" y="280" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zenfmyOmmmWf0STnrFEn-33">
+          <mxGeometry width="169.41176470588235" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-35" value="Service D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="zenfmyOmmmWf0STnrFEn-33">
+          <mxGeometry x="23.47826086956522" y="8.181818181818182" width="140.8695652173913" height="32.72727272727273" as="geometry" />
+        </mxCell>
+        <UserObject label="Module" treeRoot="1" id="zenfmyOmmmWf0STnrFEn-36">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="zenfmyOmmmWf0STnrFEn-33">
+            <mxGeometry x="39.130434782608695" y="65.45454545454545" width="93.91304347826087" height="24.545454545454547" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-37" value="Module" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="zenfmyOmmmWf0STnrFEn-33">
+          <mxGeometry x="15.652173913043478" y="122.72727272727273" width="54.78260869565217" height="24.545454545454547" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-38" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="zenfmyOmmmWf0STnrFEn-33" source="zenfmyOmmmWf0STnrFEn-36" target="zenfmyOmmmWf0STnrFEn-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-39" value="Module" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="zenfmyOmmmWf0STnrFEn-33">
+          <mxGeometry x="101.73913043478261" y="122.72727272727273" width="54.78260869565217" height="24.545454545454547" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-40" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="zenfmyOmmmWf0STnrFEn-33" source="zenfmyOmmmWf0STnrFEn-36" target="zenfmyOmmmWf0STnrFEn-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-41" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.137;entryY=1.075;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.681;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="111.96000000000004" y="278.91999999999996" as="sourcePoint" />
+            <mxPoint x="111.23000000000002" y="243" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-43" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.137;entryY=1.075;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.681;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320.73" y="279.99999999999994" as="sourcePoint" />
+            <mxPoint x="320" y="244.08" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-44" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.359;exitY=-0.128;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zenfmyOmmmWf0STnrFEn-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330.73" y="289.99999999999994" as="sourcePoint" />
+            <mxPoint x="510" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-45" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.359;exitY=-0.128;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="724.5" y="284" as="sourcePoint" />
+            <mxPoint x="724.5" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-46" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#B9E0A5;" vertex="1" parent="1">
+          <mxGeometry x="90" y="440" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-47" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#B9E0A5;" vertex="1" parent="1">
+          <mxGeometry x="290" y="440" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-48" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#B9E0A5;" vertex="1" parent="1">
+          <mxGeometry x="495" y="440" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-49" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="695" y="440" width="60" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
