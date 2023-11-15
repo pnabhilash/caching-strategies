@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T17:19:21.884Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="BQjKduql9SA-m0orj2s3" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T17:21:54.954Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="zFTDM9WzO0NWis4qvgu8" version="22.1.1" type="github">
   <diagram name="Page-1" id="h-Ne3Ox8bphOEvE_lwpQ">
     <mxGraphModel dx="1405" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -76,7 +76,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zenfmyOmmmWf0STnrFEn-24" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="440" y="280" width="170" height="180" as="geometry" />
+          <mxGeometry x="440" y="280" width="180" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-50" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCE9F;" vertex="1" parent="zenfmyOmmmWf0STnrFEn-24">
+          <mxGeometry x="-19.35" y="-30" width="199.35" height="280" as="geometry" />
         </mxCell>
         <mxCell id="zenfmyOmmmWf0STnrFEn-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zenfmyOmmmWf0STnrFEn-24">
           <mxGeometry width="160" height="180" as="geometry" />
@@ -162,6 +165,9 @@
         </mxCell>
         <mxCell id="zenfmyOmmmWf0STnrFEn-49" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#97D077;" vertex="1" parent="1">
           <mxGeometry x="695" y="440" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zenfmyOmmmWf0STnrFEn-51" value="Bounded Context : (Share Nothing)&amp;nbsp;&lt;br&gt;If data sets gets shared between Microservices then any changes on the schema will impact the other services too. This has be to discouraged&amp;nbsp;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="570" width="400" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
